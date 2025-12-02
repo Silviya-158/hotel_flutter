@@ -1,0 +1,40 @@
+name: hotelaa
+description: A beautiful hotel booking Flutter app for Lee Falls Mansion.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/hotel.jpeg
+    - assets/images/room1.jpeg
+    - assets/images/room2.jpeg
+    - assets/images/room3.jpeg
+    - assets/images/room4.jpeg
+    - assets/images/dining1.jpg
+    - assets/images/dining2.jpg
+    - assets/images/dining3.jpg
+    - assets/images/bar.jpg
+    - assets/images/parking.jpg
+    - assets/images/pool.jpg
+    - assets/images/restaurant.jpg
+    - assets/images/spa.jpg
+    - assets/images/wifi.jpg
